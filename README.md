@@ -6,8 +6,8 @@ The repository is always open to suggestions, changes and new contributions.
 # Important Notice
 Use the following credentials to log in:
 ```
-Email: admin@test.com
-Password: admin123
+Email: john.doe@example.com
+Password: passwordseguro123
 ```
 
 # How to Deploy
