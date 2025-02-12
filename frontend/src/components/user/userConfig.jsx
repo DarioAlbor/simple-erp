@@ -25,7 +25,7 @@ import {
   InputRightElement,
 } from '@chakra-ui/react';
 import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
-import { getWithAuth, requestWithAuth, routes } from '../../../../../PharmaBroSoft/frontend/src/utils/apiRoutes';
+import { getWithAuth, requestWithAuth, routes } from '../../utils/apiRoutes';
 import { FaPencilAlt, FaInfoCircle } from 'react-icons/fa';
 import ModalChangePassword from './modalChangePassword';
 import ModalChangeImage from './modalChangeImage'; 

@@ -9,7 +9,7 @@ import {
   useToast,
 } from '@chakra-ui/react';
 import { FaUserAltSlash } from "react-icons/fa";
-import { requestWithAuth, routes } from '../../../../../PharmaBroSoft/frontend/src/utils/apiRoutes';
+import { requestWithAuth, routes } from '../../utils/apiRoutes';
 
 export default function ConfirmDeleteProfile() {
   const [isDisabled, setIsDisabled] = useState(false);

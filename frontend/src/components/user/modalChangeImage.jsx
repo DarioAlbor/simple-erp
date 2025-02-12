@@ -18,7 +18,7 @@ import {
   Icon,
 } from '@chakra-ui/react';
 import { FaInfoCircle } from 'react-icons/fa';
-import { requestWithAuth, routes } from '../../../../../PharmaBroSoft/frontend/src/utils/apiRoutes';
+import { requestWithAuth, routes } from '../../utils/apiRoutes';
 
 export default function ModalChangeImage({ isOpen, onClose }) {
   const [imageLink, setImageLink] = useState('');

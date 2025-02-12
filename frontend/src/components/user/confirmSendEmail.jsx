@@ -9,7 +9,7 @@ import {
   useToast,
 } from '@chakra-ui/react';
 import { RiMailSendLine } from 'react-icons/ri';
-import { getWithAuth, requestWithAuth, routes } from '../../../../../PharmaBroSoft/frontend/src/utils/apiRoutes';
+import { getWithAuth, requestWithAuth, routes } from '../../utils/apiRoutes';
 
 export default function ConfirmSendEmail() {
   const [isChecked, setIsChecked] = useState(false);
